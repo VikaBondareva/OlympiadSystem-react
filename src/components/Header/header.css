@@ -1,0 +1,58 @@
+.header {
+  background: #5f1f79;
+  color: white;
+  height: 150px;
+}
+.header__btns {
+  position: absolute;
+  right: 0;
+  margin-right: 100px;
+  top: 20px;
+}
+.app__header {
+  position: relative;
+}
+.nav {
+  display: flex;
+}
+.nav__logo {
+  position: absolute;
+  left: -100px;
+  top: -20px;
+}
+.logo {
+  background: #8397ab;
+  padding: 10px 20px;
+}
+.header__nav {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  margin-right: -50%;
+}
+.link {
+  font-weight: bold;
+  text-decoration: none;
+}
+.link_active {
+  color: #ff9800;
+}
+.nav__link {
+  margin: 0 5px;
+}
+
+.btn {
+  padding: 3px 12px;
+  border-radius: 5px;
+  border: none;
+  width: 120px;
+}
+.btn_white {
+  background: white;
+}
+.btn_orange {
+  background: #ff9800;
+}
+.header__btn {
+  margin: 0 5px;
+}
