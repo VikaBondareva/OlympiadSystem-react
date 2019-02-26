@@ -1,0 +1,26 @@
+.main {
+  display: flex;
+  padding: 0 10px;
+  flex-direction: column;
+  background: rgb(246, 246, 248);
+  min-height: 500px;
+}
+.main__navigator {
+  flex-grow: initial;
+}
+.navigator {
+  padding-top: 15px;
+  font-size: 0.8em;
+  color: #61676d;
+}
+.section {
+  padding: 10px 0;
+}
+.main__section {
+  margin-top: 10px;
+  flex-grow: 1;
+}
+
+.app__main {
+  margin: 0 250px;
+}

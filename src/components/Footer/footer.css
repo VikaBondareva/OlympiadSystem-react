@@ -1,0 +1,58 @@
+.footer {
+  background: #2f2135;
+  height: 200px;
+  color: white;
+}
+.footer__menu {
+  margin: 15px 50px;
+}
+.footer__content {
+  display: flex;
+  position: relative;
+  left: 100px;
+  top: 15px;
+}
+.app__footer {
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+.footer__social {
+  margin: 10px 0 0 250px;
+}
+.social-icons {
+  display: flex;
+}
+.title-menu {
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.item {
+  margin: 8px 0;
+  font-size: 0.8em;
+}
+
+.footer__logo {
+  position: absolute;
+  left: 150px;
+  top: 10px;
+}
+
+.icon {
+  margin: 0 8px;
+  height: 35px;
+  width: 35px;
+  background-size: cover;
+  border-radius: 50%;
+}
+.icon-facebook {
+  background-image: url("../../style/image/facebook.jpg");
+}
+.icon-viber {
+  background-image: url("../../style/image/viber.jpg");
+}
+.icon-vk {
+  background-image: url("../../style/image/vk.png");
+}

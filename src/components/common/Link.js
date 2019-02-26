@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-export default class Link extends React.Component {
+export default class Href extends React.Component {
   constructor(props) {
     super(props);
     this.nextPage = this.nextPage.bind(this);
@@ -17,9 +18,9 @@ export default class Link extends React.Component {
     }
 
     return (
-      <a className={className} href={this.href} onClick={this.nextPage}>
-        {this.props.children}
-      </a>
+      <p className={className} onClick={this.nextPage}>
+        <Link to={this.props.href}>{this.props.children}</Link>
+      </p>
     );
   }
 }

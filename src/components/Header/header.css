@@ -1,12 +1,12 @@
 .header {
   background: #5f1f79;
   color: white;
-  height: 150px;
+  height: 100px;
 }
 .header__btns {
   position: absolute;
   right: 0;
-  margin-right: 100px;
+  margin-right: 250px;
   top: 20px;
 }
 .app__header {
@@ -20,14 +20,10 @@
   left: -100px;
   top: -20px;
 }
-.logo {
-  background: #8397ab;
-  padding: 10px 20px;
-}
 .header__nav {
   position: absolute;
   top: 50%;
-  left: 20%;
+  left: 350px;
   margin-right: -50%;
 }
 .link {
@@ -38,7 +34,7 @@
   color: #ff9800;
 }
 .nav__link {
-  margin: 0 5px;
+  margin: 0 10px;
 }
 
 .btn {

@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "./NavBar";
 import Button from "../common/Button";
+
 import "./header.css";
 
 export default class Header extends React.Component {

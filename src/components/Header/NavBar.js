@@ -1,5 +1,6 @@
 import React from "react";
-import Link from "../common/Link";
+import Href from "../common/Link";
+import { Link } from "react-router-dom";
 
 export default class NavBar extends React.Component {
   constructor() {
@@ -7,28 +8,28 @@ export default class NavBar extends React.Component {
     this.state = {
       links: [
         {
-          text: "О проекте",
-          href: "#",
+          text: "Главная",
+          href: "/",
           isActive: false
         },
         {
           text: "Ваши возможности",
-          href: "#",
+          href: "/opportunity",
           isActive: true
         },
         {
           text: "Олимпиады",
-          href: "#",
+          href: "/olympaids",
           isActive: false
         },
         {
           text: "Учебные курсы",
-          href: "#",
+          href: "/courses",
           isActive: false
         },
         {
           text: "Контакты",
-          href: "#",
+          href: "/contact",
           isActive: false
         }
       ]
@@ -50,15 +51,15 @@ export default class NavBar extends React.Component {
 
   eachLink(link, i) {
     return (
-      <Link
+      <Href
         key={i}
         index={i}
         isActive={link.isActive}
-        href={this.next}
+        href={link.href}
         next={this.next}
       >
         {link.text}
-      </Link>
+      </Href>
     );
   }
 
